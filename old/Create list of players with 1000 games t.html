@@ -1,0 +1,18 @@
+Create list of players with 1000 games total.
+
+
+For each season:
+  Look up _games.html endpoint
+  eg: https://www.hockey-reference.com/leagues/NHL_1935_games.html
+  for each game:
+    https://www.hockey-reference.com/boxscores/193411080STE.html
+    find all html elements with players tag.
+    eg: <a href="/players/b/burkema01.html">Marty Burke</a>
+    if two players playing in the game on the same team, add +1 to games played together.
+
+[
+    {
+        "id": string: <p1_p2>
+        "gp": int 
+    }
+]

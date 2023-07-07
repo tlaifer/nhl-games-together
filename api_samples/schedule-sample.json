@@ -1,0 +1,5632 @@
+{
+    "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2022. All Rights Reserved.",
+    "totalItems" : 26,
+    "totalEvents" : 0,
+    "totalGames" : 26,
+    "totalMatches" : 0,
+    "metaData" : {
+      "timeStamp" : "20221220_015049"
+    },
+    "wait" : 10,
+    "dates" : [ {
+      "date" : "1990-12-20",
+      "totalItems" : 8,
+      "totalEvents" : 0,
+      "totalGames" : 8,
+      "totalMatches" : 0,
+      "games" : [ {
+        "gamePk" : 1990020374,
+        "link" : "/api/v1/game/1990020374/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-20T20:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 13,
+              "losses" : 17,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 22,
+              "name" : "Edmonton Oilers",
+              "link" : "/api/v1/teams/22",
+              "venue" : {
+                "id" : 5100,
+                "name" : "Rogers Place",
+                "link" : "/api/v1/venues/5100",
+                "city" : "Edmonton",
+                "timeZone" : {
+                  "id" : "America/Edmonton",
+                  "offset" : -7,
+                  "tz" : "MST"
+                }
+              },
+              "abbreviation" : "EDM",
+              "teamName" : "Oilers",
+              "locationName" : "Edmonton",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 25,
+                "teamName" : "Oilers",
+                "link" : "/api/v1/franchises/25"
+              },
+              "shortName" : "Edmonton",
+              "officialSiteUrl" : "http://www.edmontonoilers.com/",
+              "franchiseId" : 25,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 16,
+              "losses" : 17,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 7,
+            "team" : {
+              "id" : 23,
+              "name" : "Vancouver Canucks",
+              "link" : "/api/v1/teams/23",
+              "venue" : {
+                "id" : 5073,
+                "name" : "Rogers Arena",
+                "link" : "/api/v1/venues/5073",
+                "city" : "Vancouver",
+                "timeZone" : {
+                  "id" : "America/Vancouver",
+                  "offset" : -8,
+                  "tz" : "PST"
+                }
+              },
+              "abbreviation" : "VAN",
+              "teamName" : "Canucks",
+              "locationName" : "Vancouver",
+              "firstYearOfPlay" : "1970",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 20,
+                "teamName" : "Canucks",
+                "link" : "/api/v1/franchises/20"
+              },
+              "shortName" : "Vancouver",
+              "officialSiteUrl" : "http://www.canucks.com/",
+              "franchiseId" : 20,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 23,
+                "name" : "Vancouver Canucks",
+                "link" : "/api/v1/teams/23"
+              },
+              "goals" : 7,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 22,
+                "name" : "Edmonton Oilers",
+                "link" : "/api/v1/teams/22"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Pacific Coliseum",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "SN650",
+          "type" : "home"
+        }, {
+          "name" : "CHED",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020374/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020367,
+        "link" : "/api/v1/game/1990020367/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-21T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 11,
+              "losses" : 16,
+              "ties" : 7,
+              "type" : "league"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 7,
+              "name" : "Buffalo Sabres",
+              "link" : "/api/v1/teams/7",
+              "venue" : {
+                "id" : 5039,
+                "name" : "KeyBank Center",
+                "link" : "/api/v1/venues/5039",
+                "city" : "Buffalo",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "BUF",
+              "teamName" : "Sabres",
+              "locationName" : "Buffalo",
+              "firstYearOfPlay" : "1970",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 19,
+                "teamName" : "Sabres",
+                "link" : "/api/v1/franchises/19"
+              },
+              "shortName" : "Buffalo",
+              "officialSiteUrl" : "http://www.sabres.com/",
+              "franchiseId" : 19,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 11,
+              "ties" : 7,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 6,
+              "name" : "Boston Bruins",
+              "link" : "/api/v1/teams/6",
+              "venue" : {
+                "id" : 5085,
+                "name" : "TD Garden",
+                "link" : "/api/v1/venues/5085",
+                "city" : "Boston",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "BOS",
+              "teamName" : "Bruins",
+              "locationName" : "Boston",
+              "firstYearOfPlay" : "1924",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 6,
+                "teamName" : "Bruins",
+                "link" : "/api/v1/franchises/6"
+              },
+              "shortName" : "Boston",
+              "officialSiteUrl" : "http://www.bostonbruins.com/",
+              "franchiseId" : 6,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 6,
+                "name" : "Boston Bruins",
+                "link" : "/api/v1/teams/6"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 7,
+                "name" : "Buffalo Sabres",
+                "link" : "/api/v1/teams/7"
+              },
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Boston Garden",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "98.5 Sports Hub",
+          "type" : "home"
+        }, {
+          "name" : "WGR 550",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020367/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020368,
+        "link" : "/api/v1/game/1990020368/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-21T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 17,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 34,
+              "name" : "Hartford Whalers",
+              "link" : "/api/v1/teams/34",
+              "abbreviation" : "HFD",
+              "teamName" : "Whalers",
+              "locationName" : "Hartford",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 26,
+                "teamName" : "Hurricanes",
+                "link" : "/api/v1/franchises/26"
+              },
+              "shortName" : "Hartford",
+              "franchiseId" : 26,
+              "active" : false
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 12,
+              "losses" : 17,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 2,
+              "name" : "New York Islanders",
+              "link" : "/api/v1/teams/2",
+              "venue" : {
+                "name" : "UBS Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Elmont",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NYI",
+              "teamName" : "Islanders",
+              "locationName" : "New York",
+              "firstYearOfPlay" : "1972",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 22,
+                "teamName" : "Islanders",
+                "link" : "/api/v1/franchises/22"
+              },
+              "shortName" : "NY Islanders",
+              "officialSiteUrl" : "http://www.newyorkislanders.com/",
+              "franchiseId" : 22,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 2,
+                "name" : "New York Islanders",
+                "link" : "/api/v1/teams/2"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 34,
+                "name" : "Hartford Whalers",
+                "link" : "/api/v1/teams/34"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Nassau Veterans Memorial Coliseum",
+          "link" : "/api/v1/venues/null"
+        },
+        "content" : {
+          "link" : "/api/v1/game/1990020368/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020369,
+        "link" : "/api/v1/game/1990020369/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-21T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 13,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 1,
+              "name" : "New Jersey Devils",
+              "link" : "/api/v1/teams/1",
+              "venue" : {
+                "name" : "Prudential Center",
+                "link" : "/api/v1/venues/null",
+                "city" : "Newark",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NJD",
+              "teamName" : "Devils",
+              "locationName" : "New Jersey",
+              "firstYearOfPlay" : "1982",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 23,
+                "teamName" : "Devils",
+                "link" : "/api/v1/franchises/23"
+              },
+              "shortName" : "New Jersey",
+              "officialSiteUrl" : "http://www.newjerseydevils.com/",
+              "franchiseId" : 23,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 16,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 4,
+              "name" : "Philadelphia Flyers",
+              "link" : "/api/v1/teams/4",
+              "venue" : {
+                "id" : 5096,
+                "name" : "Wells Fargo Center",
+                "link" : "/api/v1/venues/5096",
+                "city" : "Philadelphia",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "PHI",
+              "teamName" : "Flyers",
+              "locationName" : "Philadelphia",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 16,
+                "teamName" : "Flyers",
+                "link" : "/api/v1/franchises/16"
+              },
+              "shortName" : "Philadelphia",
+              "officialSiteUrl" : "http://www.philadelphiaflyers.com/",
+              "franchiseId" : 16,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 4,
+          "currentPeriodOrdinal" : "OT",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "OVERTIME",
+            "num" : 4,
+            "ordinalNum" : "OT",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 4,
+                "name" : "Philadelphia Flyers",
+                "link" : "/api/v1/teams/4"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 1,
+                "name" : "New Jersey Devils",
+                "link" : "/api/v1/teams/1"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Spectrum",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "97.5 The Fanatic",
+          "type" : "home"
+        }, {
+          "name" : "Devils Hockey Net.",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020369/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020370,
+        "link" : "/api/v1/game/1990020370/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-21T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 10,
+              "losses" : 20,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 31,
+              "name" : "Minnesota North Stars",
+              "link" : "/api/v1/teams/31",
+              "abbreviation" : "MNS",
+              "teamName" : "North Stars",
+              "locationName" : "Minnesota",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 15,
+                "teamName" : "Stars",
+                "link" : "/api/v1/franchises/15"
+              },
+              "shortName" : "Minnesota",
+              "franchiseId" : 15,
+              "active" : false
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 16,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 5,
+              "name" : "Pittsburgh Penguins",
+              "link" : "/api/v1/teams/5",
+              "venue" : {
+                "id" : 5034,
+                "name" : "PPG Paints Arena",
+                "link" : "/api/v1/venues/5034",
+                "city" : "Pittsburgh",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "PIT",
+              "teamName" : "Penguins",
+              "locationName" : "Pittsburgh",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 17,
+                "teamName" : "Penguins",
+                "link" : "/api/v1/franchises/17"
+              },
+              "shortName" : "Pittsburgh",
+              "officialSiteUrl" : "http://pittsburghpenguins.com/",
+              "franchiseId" : 17,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 5,
+                "name" : "Pittsburgh Penguins",
+                "link" : "/api/v1/teams/5"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 31,
+                "name" : "Minnesota North Stars",
+                "link" : "/api/v1/teams/31"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Civic Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "content" : {
+          "link" : "/api/v1/game/1990020370/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020372,
+        "link" : "/api/v1/game/1990020372/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-21T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 10,
+              "losses" : 21,
+              "ties" : 7,
+              "type" : "league"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 33,
+              "name" : "Winnipeg Jets (1979)",
+              "link" : "/api/v1/teams/33",
+              "abbreviation" : "WIN",
+              "teamName" : "Jets",
+              "locationName" : "Winnipeg",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 28,
+                "teamName" : "Coyotes",
+                "link" : "/api/v1/franchises/28"
+              },
+              "shortName" : "Winnipeg",
+              "franchiseId" : 28,
+              "active" : false
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 14,
+              "ties" : 7,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 17,
+              "name" : "Detroit Red Wings",
+              "link" : "/api/v1/teams/17",
+              "venue" : {
+                "id" : 5145,
+                "name" : "Little Caesars Arena",
+                "link" : "/api/v1/venues/5145",
+                "city" : "Detroit",
+                "timeZone" : {
+                  "id" : "America/Detroit",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "DET",
+              "teamName" : "Red Wings",
+              "locationName" : "Detroit",
+              "firstYearOfPlay" : "1932",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 12,
+                "teamName" : "Red Wings",
+                "link" : "/api/v1/franchises/12"
+              },
+              "shortName" : "Detroit",
+              "officialSiteUrl" : "http://www.detroitredwings.com/",
+              "franchiseId" : 12,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 17,
+                "name" : "Detroit Red Wings",
+                "link" : "/api/v1/teams/17"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 33,
+                "name" : "Winnipeg Jets (1979)",
+                "link" : "/api/v1/teams/33"
+              },
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "id" : 5047,
+          "name" : "Joe Louis Arena",
+          "link" : "/api/v1/venues/5047"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "WXYT-FM 97.1",
+          "type" : "home"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020372/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020371,
+        "link" : "/api/v1/game/1990020371/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-21T01:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 18,
+              "ties" : 1,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 15,
+              "name" : "Washington Capitals",
+              "link" : "/api/v1/teams/15",
+              "venue" : {
+                "id" : 5094,
+                "name" : "Capital One Arena",
+                "link" : "/api/v1/venues/5094",
+                "city" : "Washington",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "WSH",
+              "teamName" : "Capitals",
+              "locationName" : "Washington",
+              "firstYearOfPlay" : "1974",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 24,
+                "teamName" : "Capitals",
+                "link" : "/api/v1/franchises/24"
+              },
+              "shortName" : "Washington",
+              "officialSiteUrl" : "http://www.washingtoncapitals.com/",
+              "franchiseId" : 24,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 9,
+              "ties" : 1,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 19,
+              "name" : "St. Louis Blues",
+              "link" : "/api/v1/teams/19",
+              "venue" : {
+                "id" : 5076,
+                "name" : "Enterprise Center",
+                "link" : "/api/v1/venues/5076",
+                "city" : "St. Louis",
+                "timeZone" : {
+                  "id" : "America/Chicago",
+                  "offset" : -6,
+                  "tz" : "CST"
+                }
+              },
+              "abbreviation" : "STL",
+              "teamName" : "Blues",
+              "locationName" : "St. Louis",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 18,
+                "teamName" : "Blues",
+                "link" : "/api/v1/franchises/18"
+              },
+              "shortName" : "St Louis",
+              "officialSiteUrl" : "http://www.stlouisblues.com/",
+              "franchiseId" : 18,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 4,
+          "currentPeriodOrdinal" : "OT",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "OVERTIME",
+            "num" : 4,
+            "ordinalNum" : "OT",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 19,
+                "name" : "St. Louis Blues",
+                "link" : "/api/v1/teams/19"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 15,
+                "name" : "Washington Capitals",
+                "link" : "/api/v1/teams/15"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "St. Louis Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "101 ESPN",
+          "type" : "home"
+        }, {
+          "name" : "WJFK, CapsRadio24/7",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020371/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020373,
+        "link" : "/api/v1/game/1990020373/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-21T02:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 10,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 26,
+              "name" : "Los Angeles Kings",
+              "link" : "/api/v1/teams/26",
+              "venue" : {
+                "name" : "Crypto.com Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Los Angeles",
+                "timeZone" : {
+                  "id" : "America/Los_Angeles",
+                  "offset" : -8,
+                  "tz" : "PST"
+                }
+              },
+              "abbreviation" : "LAK",
+              "teamName" : "Kings",
+              "locationName" : "Los Angeles",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 14,
+                "teamName" : "Kings",
+                "link" : "/api/v1/franchises/14"
+              },
+              "shortName" : "Los Angeles",
+              "officialSiteUrl" : "http://www.lakings.com/",
+              "franchiseId" : 14,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 12,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 20,
+              "name" : "Calgary Flames",
+              "link" : "/api/v1/teams/20",
+              "venue" : {
+                "id" : 5075,
+                "name" : "Scotiabank Saddledome",
+                "link" : "/api/v1/venues/5075",
+                "city" : "Calgary",
+                "timeZone" : {
+                  "id" : "America/Denver",
+                  "offset" : -7,
+                  "tz" : "MST"
+                }
+              },
+              "abbreviation" : "CGY",
+              "teamName" : "Flames",
+              "locationName" : "Calgary",
+              "firstYearOfPlay" : "1980",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 21,
+                "teamName" : "Flames",
+                "link" : "/api/v1/franchises/21"
+              },
+              "shortName" : "Calgary",
+              "officialSiteUrl" : "http://www.calgaryflames.com/",
+              "franchiseId" : 21,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 4,
+          "currentPeriodOrdinal" : "OT",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "OVERTIME",
+            "num" : 4,
+            "ordinalNum" : "OT",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 20,
+                "name" : "Calgary Flames",
+                "link" : "/api/v1/teams/20"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 26,
+                "name" : "Los Angeles Kings",
+                "link" : "/api/v1/teams/26"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Olympic Saddledome",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "Sportsnet Fan 960",
+          "type" : "home"
+        }, {
+          "name" : "iHeartRadio",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020373/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      } ],
+      "events" : [ ],
+      "matches" : [ ]
+    }, {
+      "date" : "1990-12-22",
+      "totalItems" : 10,
+      "totalEvents" : 0,
+      "totalGames" : 10,
+      "totalMatches" : 0,
+      "games" : [ {
+        "gamePk" : 1990020380,
+        "link" : "/api/v1/game/1990020380/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-22T18:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 10,
+              "losses" : 25,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 10,
+              "name" : "Toronto Maple Leafs",
+              "link" : "/api/v1/teams/10",
+              "venue" : {
+                "name" : "Scotiabank Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Toronto",
+                "timeZone" : {
+                  "id" : "America/Toronto",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "TOR",
+              "teamName" : "Maple Leafs",
+              "locationName" : "Toronto",
+              "firstYearOfPlay" : "1927",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 5,
+                "teamName" : "Maple Leafs",
+                "link" : "/api/v1/franchises/5"
+              },
+              "shortName" : "Toronto",
+              "officialSiteUrl" : "http://www.mapleleafs.com/",
+              "franchiseId" : 5,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 19,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 15,
+              "name" : "Washington Capitals",
+              "link" : "/api/v1/teams/15",
+              "venue" : {
+                "id" : 5094,
+                "name" : "Capital One Arena",
+                "link" : "/api/v1/venues/5094",
+                "city" : "Washington",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "WSH",
+              "teamName" : "Capitals",
+              "locationName" : "Washington",
+              "firstYearOfPlay" : "1974",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 24,
+                "teamName" : "Capitals",
+                "link" : "/api/v1/franchises/24"
+              },
+              "shortName" : "Washington",
+              "officialSiteUrl" : "http://www.washingtoncapitals.com/",
+              "franchiseId" : 24,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 15,
+                "name" : "Washington Capitals",
+                "link" : "/api/v1/teams/15"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 10,
+                "name" : "Toronto Maple Leafs",
+                "link" : "/api/v1/teams/10"
+              },
+              "goals" : 5,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Capital Centre",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "WJFK, CapsRadio24/7",
+          "type" : "home"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020380/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020375,
+        "link" : "/api/v1/game/1990020375/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T00:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 10,
+              "losses" : 21,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 31,
+              "name" : "Minnesota North Stars",
+              "link" : "/api/v1/teams/31",
+              "abbreviation" : "MNS",
+              "teamName" : "North Stars",
+              "locationName" : "Minnesota",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 15,
+                "teamName" : "Stars",
+                "link" : "/api/v1/franchises/15"
+              },
+              "shortName" : "Minnesota",
+              "franchiseId" : 15,
+              "active" : false
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 11,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 6,
+            "team" : {
+              "id" : 6,
+              "name" : "Boston Bruins",
+              "link" : "/api/v1/teams/6",
+              "venue" : {
+                "id" : 5085,
+                "name" : "TD Garden",
+                "link" : "/api/v1/venues/5085",
+                "city" : "Boston",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "BOS",
+              "teamName" : "Bruins",
+              "locationName" : "Boston",
+              "firstYearOfPlay" : "1924",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 6,
+                "teamName" : "Bruins",
+                "link" : "/api/v1/franchises/6"
+              },
+              "shortName" : "Boston",
+              "officialSiteUrl" : "http://www.bostonbruins.com/",
+              "franchiseId" : 6,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 6,
+                "name" : "Boston Bruins",
+                "link" : "/api/v1/teams/6"
+              },
+              "goals" : 6,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 31,
+                "name" : "Minnesota North Stars",
+                "link" : "/api/v1/teams/31"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Boston Garden",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "98.5 Sports Hub",
+          "type" : "home"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020375/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020376,
+        "link" : "/api/v1/game/1990020376/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 17,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 4,
+              "name" : "Philadelphia Flyers",
+              "link" : "/api/v1/teams/4",
+              "venue" : {
+                "id" : 5096,
+                "name" : "Wells Fargo Center",
+                "link" : "/api/v1/venues/5096",
+                "city" : "Philadelphia",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "PHI",
+              "teamName" : "Flyers",
+              "locationName" : "Philadelphia",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 16,
+                "teamName" : "Flyers",
+                "link" : "/api/v1/franchises/16"
+              },
+              "shortName" : "Philadelphia",
+              "officialSiteUrl" : "http://www.philadelphiaflyers.com/",
+              "franchiseId" : 16,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 15,
+              "losses" : 17,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 34,
+              "name" : "Hartford Whalers",
+              "link" : "/api/v1/teams/34",
+              "abbreviation" : "HFD",
+              "teamName" : "Whalers",
+              "locationName" : "Hartford",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 26,
+                "teamName" : "Hurricanes",
+                "link" : "/api/v1/franchises/26"
+              },
+              "shortName" : "Hartford",
+              "franchiseId" : 26,
+              "active" : false
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 34,
+                "name" : "Hartford Whalers",
+                "link" : "/api/v1/teams/34"
+              },
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 4,
+                "name" : "Philadelphia Flyers",
+                "link" : "/api/v1/teams/4"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Hartford Civic Center",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "97.5 The Fanatic",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020376/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020378,
+        "link" : "/api/v1/game/1990020378/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 13,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 1,
+              "name" : "New Jersey Devils",
+              "link" : "/api/v1/teams/1",
+              "venue" : {
+                "name" : "Prudential Center",
+                "link" : "/api/v1/venues/null",
+                "city" : "Newark",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NJD",
+              "teamName" : "Devils",
+              "locationName" : "New Jersey",
+              "firstYearOfPlay" : "1982",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 23,
+                "teamName" : "Devils",
+                "link" : "/api/v1/franchises/23"
+              },
+              "shortName" : "New Jersey",
+              "officialSiteUrl" : "http://www.newjerseydevils.com/",
+              "franchiseId" : 23,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 8,
+              "losses" : 22,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 32,
+              "name" : "Quebec Nordiques",
+              "link" : "/api/v1/teams/32",
+              "abbreviation" : "QUE",
+              "teamName" : "Nordiques",
+              "locationName" : "Quebec",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 27,
+                "teamName" : "Avalanche",
+                "link" : "/api/v1/franchises/27"
+              },
+              "shortName" : "Quebec",
+              "franchiseId" : 27,
+              "active" : false
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 32,
+                "name" : "Quebec Nordiques",
+                "link" : "/api/v1/teams/32"
+              },
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 1,
+                "name" : "New Jersey Devils",
+                "link" : "/api/v1/teams/1"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Le Colisée",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "Devils Hockey Net.",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020378/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020379,
+        "link" : "/api/v1/game/1990020379/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 16,
+              "ties" : 3,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 5,
+              "name" : "Pittsburgh Penguins",
+              "link" : "/api/v1/teams/5",
+              "venue" : {
+                "id" : 5034,
+                "name" : "PPG Paints Arena",
+                "link" : "/api/v1/venues/5034",
+                "city" : "Pittsburgh",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "PIT",
+              "teamName" : "Penguins",
+              "locationName" : "Pittsburgh",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 17,
+                "teamName" : "Penguins",
+                "link" : "/api/v1/franchises/17"
+              },
+              "shortName" : "Pittsburgh",
+              "officialSiteUrl" : "http://pittsburghpenguins.com/",
+              "franchiseId" : 17,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 12,
+              "losses" : 18,
+              "ties" : 3,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 2,
+              "name" : "New York Islanders",
+              "link" : "/api/v1/teams/2",
+              "venue" : {
+                "name" : "UBS Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Elmont",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NYI",
+              "teamName" : "Islanders",
+              "locationName" : "New York",
+              "firstYearOfPlay" : "1972",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 22,
+                "teamName" : "Islanders",
+                "link" : "/api/v1/franchises/22"
+              },
+              "shortName" : "NY Islanders",
+              "officialSiteUrl" : "http://www.newyorkislanders.com/",
+              "franchiseId" : 22,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 2,
+                "name" : "New York Islanders",
+                "link" : "/api/v1/teams/2"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 5,
+                "name" : "Pittsburgh Penguins",
+                "link" : "/api/v1/teams/5"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Nassau Veterans Memorial Coliseum",
+          "link" : "/api/v1/venues/null"
+        },
+        "content" : {
+          "link" : "/api/v1/game/1990020379/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020383,
+        "link" : "/api/v1/game/1990020383/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T01:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 14,
+              "losses" : 17,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 6,
+            "team" : {
+              "id" : 22,
+              "name" : "Edmonton Oilers",
+              "link" : "/api/v1/teams/22",
+              "venue" : {
+                "id" : 5100,
+                "name" : "Rogers Place",
+                "link" : "/api/v1/venues/5100",
+                "city" : "Edmonton",
+                "timeZone" : {
+                  "id" : "America/Edmonton",
+                  "offset" : -7,
+                  "tz" : "MST"
+                }
+              },
+              "abbreviation" : "EDM",
+              "teamName" : "Oilers",
+              "locationName" : "Edmonton",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 25,
+                "teamName" : "Oilers",
+                "link" : "/api/v1/franchises/25"
+              },
+              "shortName" : "Edmonton",
+              "officialSiteUrl" : "http://www.edmontonoilers.com/",
+              "franchiseId" : 25,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 13,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 20,
+              "name" : "Calgary Flames",
+              "link" : "/api/v1/teams/20",
+              "venue" : {
+                "id" : 5075,
+                "name" : "Scotiabank Saddledome",
+                "link" : "/api/v1/venues/5075",
+                "city" : "Calgary",
+                "timeZone" : {
+                  "id" : "America/Denver",
+                  "offset" : -7,
+                  "tz" : "MST"
+                }
+              },
+              "abbreviation" : "CGY",
+              "teamName" : "Flames",
+              "locationName" : "Calgary",
+              "firstYearOfPlay" : "1980",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 21,
+                "teamName" : "Flames",
+                "link" : "/api/v1/franchises/21"
+              },
+              "shortName" : "Calgary",
+              "officialSiteUrl" : "http://www.calgaryflames.com/",
+              "franchiseId" : 21,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 20,
+                "name" : "Calgary Flames",
+                "link" : "/api/v1/teams/20"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 22,
+                "name" : "Edmonton Oilers",
+                "link" : "/api/v1/teams/22"
+              },
+              "goals" : 6,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Olympic Saddledome",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "Sportsnet Fan 960",
+          "type" : "home"
+        }, {
+          "name" : "CHED",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020383/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020381,
+        "link" : "/api/v1/game/1990020381/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T01:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 14,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 17,
+              "name" : "Detroit Red Wings",
+              "link" : "/api/v1/teams/17",
+              "venue" : {
+                "id" : 5145,
+                "name" : "Little Caesars Arena",
+                "link" : "/api/v1/venues/5145",
+                "city" : "Detroit",
+                "timeZone" : {
+                  "id" : "America/Detroit",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "DET",
+              "teamName" : "Red Wings",
+              "locationName" : "Detroit",
+              "firstYearOfPlay" : "1932",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 12,
+                "teamName" : "Red Wings",
+                "link" : "/api/v1/franchises/12"
+              },
+              "shortName" : "Detroit",
+              "officialSiteUrl" : "http://www.detroitredwings.com/",
+              "franchiseId" : 12,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 10,
+              "losses" : 22,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 33,
+              "name" : "Winnipeg Jets (1979)",
+              "link" : "/api/v1/teams/33",
+              "abbreviation" : "WIN",
+              "teamName" : "Jets",
+              "locationName" : "Winnipeg",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 28,
+                "teamName" : "Coyotes",
+                "link" : "/api/v1/franchises/28"
+              },
+              "shortName" : "Winnipeg",
+              "franchiseId" : 28,
+              "active" : false
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 33,
+                "name" : "Winnipeg Jets (1979)",
+                "link" : "/api/v1/teams/33"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 17,
+                "name" : "Detroit Red Wings",
+                "link" : "/api/v1/teams/17"
+              },
+              "goals" : 5,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Winnipeg Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "WXYT-FM 97.1",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020381/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020377,
+        "link" : "/api/v1/game/1990020377/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T01:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 13,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3",
+              "venue" : {
+                "id" : 5054,
+                "name" : "Madison Square Garden",
+                "link" : "/api/v1/venues/5054",
+                "city" : "New York",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NYR",
+              "teamName" : "Rangers",
+              "locationName" : "New York",
+              "firstYearOfPlay" : "1926",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 10,
+                "teamName" : "Rangers",
+                "link" : "/api/v1/franchises/10"
+              },
+              "shortName" : "NY Rangers",
+              "officialSiteUrl" : "http://www.newyorkrangers.com/",
+              "franchiseId" : 10,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 16,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 8,
+              "name" : "Montréal Canadiens",
+              "link" : "/api/v1/teams/8",
+              "venue" : {
+                "id" : 5028,
+                "name" : "Bell Centre",
+                "link" : "/api/v1/venues/5028",
+                "city" : "Montréal",
+                "timeZone" : {
+                  "id" : "America/Montreal",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "MTL",
+              "teamName" : "Canadiens",
+              "locationName" : "Montréal",
+              "firstYearOfPlay" : "1917",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 1,
+                "teamName" : "Canadiens",
+                "link" : "/api/v1/franchises/1"
+              },
+              "shortName" : "Montréal",
+              "officialSiteUrl" : "http://www.canadiens.com/",
+              "franchiseId" : 1,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 8,
+                "name" : "Montréal Canadiens",
+                "link" : "/api/v1/teams/8"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 3,
+                "name" : "New York Rangers",
+                "link" : "/api/v1/teams/3"
+              },
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Montreal Forum",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "TSN 690 - 98,5FM",
+          "type" : "home"
+        }, {
+          "name" : "WEPN",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020377/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020382,
+        "link" : "/api/v1/game/1990020382/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T01:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 24,
+              "losses" : 12,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 16,
+              "name" : "Chicago Blackhawks",
+              "link" : "/api/v1/teams/16",
+              "venue" : {
+                "id" : 5092,
+                "name" : "United Center",
+                "link" : "/api/v1/venues/5092",
+                "city" : "Chicago",
+                "timeZone" : {
+                  "id" : "America/Chicago",
+                  "offset" : -6,
+                  "tz" : "CST"
+                }
+              },
+              "abbreviation" : "CHI",
+              "teamName" : "Blackhawks",
+              "locationName" : "Chicago",
+              "firstYearOfPlay" : "1926",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 11,
+                "teamName" : "Blackhawks",
+                "link" : "/api/v1/franchises/11"
+              },
+              "shortName" : "Chicago",
+              "officialSiteUrl" : "http://www.chicagoblackhawks.com/",
+              "franchiseId" : 11,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 21,
+              "losses" : 9,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 19,
+              "name" : "St. Louis Blues",
+              "link" : "/api/v1/teams/19",
+              "venue" : {
+                "id" : 5076,
+                "name" : "Enterprise Center",
+                "link" : "/api/v1/venues/5076",
+                "city" : "St. Louis",
+                "timeZone" : {
+                  "id" : "America/Chicago",
+                  "offset" : -6,
+                  "tz" : "CST"
+                }
+              },
+              "abbreviation" : "STL",
+              "teamName" : "Blues",
+              "locationName" : "St. Louis",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 18,
+                "teamName" : "Blues",
+                "link" : "/api/v1/franchises/18"
+              },
+              "shortName" : "St Louis",
+              "officialSiteUrl" : "http://www.stlouisblues.com/",
+              "franchiseId" : 18,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 19,
+                "name" : "St. Louis Blues",
+                "link" : "/api/v1/teams/19"
+              },
+              "goals" : 5,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 16,
+                "name" : "Chicago Blackhawks",
+                "link" : "/api/v1/teams/16"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "St. Louis Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "101 ESPN",
+          "type" : "home"
+        }, {
+          "name" : "WGN 720",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020382/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020384,
+        "link" : "/api/v1/game/1990020384/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-23T04:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 11,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 26,
+              "name" : "Los Angeles Kings",
+              "link" : "/api/v1/teams/26",
+              "venue" : {
+                "name" : "Crypto.com Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Los Angeles",
+                "timeZone" : {
+                  "id" : "America/Los_Angeles",
+                  "offset" : -8,
+                  "tz" : "PST"
+                }
+              },
+              "abbreviation" : "LAK",
+              "teamName" : "Kings",
+              "locationName" : "Los Angeles",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 14,
+                "teamName" : "Kings",
+                "link" : "/api/v1/franchises/14"
+              },
+              "shortName" : "Los Angeles",
+              "officialSiteUrl" : "http://www.lakings.com/",
+              "franchiseId" : 14,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 17,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 23,
+              "name" : "Vancouver Canucks",
+              "link" : "/api/v1/teams/23",
+              "venue" : {
+                "id" : 5073,
+                "name" : "Rogers Arena",
+                "link" : "/api/v1/venues/5073",
+                "city" : "Vancouver",
+                "timeZone" : {
+                  "id" : "America/Vancouver",
+                  "offset" : -8,
+                  "tz" : "PST"
+                }
+              },
+              "abbreviation" : "VAN",
+              "teamName" : "Canucks",
+              "locationName" : "Vancouver",
+              "firstYearOfPlay" : "1970",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 20,
+                "teamName" : "Canucks",
+                "link" : "/api/v1/franchises/20"
+              },
+              "shortName" : "Vancouver",
+              "officialSiteUrl" : "http://www.canucks.com/",
+              "franchiseId" : 20,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 23,
+                "name" : "Vancouver Canucks",
+                "link" : "/api/v1/teams/23"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 26,
+                "name" : "Los Angeles Kings",
+                "link" : "/api/v1/teams/26"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Pacific Coliseum",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "SN650",
+          "type" : "home"
+        }, {
+          "name" : "iHeartRadio",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020384/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      } ],
+      "events" : [ ],
+      "matches" : [ ]
+    }, {
+      "date" : "1990-12-23",
+      "totalItems" : 8,
+      "totalEvents" : 0,
+      "totalGames" : 8,
+      "totalMatches" : 0,
+      "games" : [ {
+        "gamePk" : 1990020387,
+        "link" : "/api/v1/game/1990020387/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T00:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 8,
+              "losses" : 23,
+              "ties" : 7,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 32,
+              "name" : "Quebec Nordiques",
+              "link" : "/api/v1/teams/32",
+              "abbreviation" : "QUE",
+              "teamName" : "Nordiques",
+              "locationName" : "Quebec",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 27,
+                "teamName" : "Avalanche",
+                "link" : "/api/v1/franchises/27"
+              },
+              "shortName" : "Quebec",
+              "franchiseId" : 27,
+              "active" : false
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 12,
+              "losses" : 16,
+              "ties" : 7,
+              "type" : "league"
+            },
+            "score" : 10,
+            "team" : {
+              "id" : 7,
+              "name" : "Buffalo Sabres",
+              "link" : "/api/v1/teams/7",
+              "venue" : {
+                "id" : 5039,
+                "name" : "KeyBank Center",
+                "link" : "/api/v1/venues/5039",
+                "city" : "Buffalo",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "BUF",
+              "teamName" : "Sabres",
+              "locationName" : "Buffalo",
+              "firstYearOfPlay" : "1970",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 19,
+                "teamName" : "Sabres",
+                "link" : "/api/v1/franchises/19"
+              },
+              "shortName" : "Buffalo",
+              "officialSiteUrl" : "http://www.sabres.com/",
+              "franchiseId" : 19,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 7,
+                "name" : "Buffalo Sabres",
+                "link" : "/api/v1/teams/7"
+              },
+              "goals" : 10,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 32,
+                "name" : "Quebec Nordiques",
+                "link" : "/api/v1/teams/32"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Buffalo Memorial Auditorium",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "WGR 550",
+          "type" : "home"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020387/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020388,
+        "link" : "/api/v1/game/1990020388/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T00:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 16,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 8,
+              "name" : "Montréal Canadiens",
+              "link" : "/api/v1/teams/8",
+              "venue" : {
+                "id" : 5028,
+                "name" : "Bell Centre",
+                "link" : "/api/v1/venues/5028",
+                "city" : "Montréal",
+                "timeZone" : {
+                  "id" : "America/Montreal",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "MTL",
+              "teamName" : "Canadiens",
+              "locationName" : "Montréal",
+              "firstYearOfPlay" : "1917",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 1,
+                "teamName" : "Canadiens",
+                "link" : "/api/v1/franchises/1"
+              },
+              "shortName" : "Montréal",
+              "officialSiteUrl" : "http://www.canadiens.com/",
+              "franchiseId" : 1,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 17,
+              "ties" : 5,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 4,
+              "name" : "Philadelphia Flyers",
+              "link" : "/api/v1/teams/4",
+              "venue" : {
+                "id" : 5096,
+                "name" : "Wells Fargo Center",
+                "link" : "/api/v1/venues/5096",
+                "city" : "Philadelphia",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "PHI",
+              "teamName" : "Flyers",
+              "locationName" : "Philadelphia",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 16,
+                "teamName" : "Flyers",
+                "link" : "/api/v1/franchises/16"
+              },
+              "shortName" : "Philadelphia",
+              "officialSiteUrl" : "http://www.philadelphiaflyers.com/",
+              "franchiseId" : 16,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 4,
+          "currentPeriodOrdinal" : "OT",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "OVERTIME",
+            "num" : 4,
+            "ordinalNum" : "OT",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 4,
+                "name" : "Philadelphia Flyers",
+                "link" : "/api/v1/teams/4"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 8,
+                "name" : "Montréal Canadiens",
+                "link" : "/api/v1/teams/8"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Spectrum",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "97.5 The Fanatic",
+          "type" : "home"
+        }, {
+          "name" : "TSN 690 - 98,5FM",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020388/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020385,
+        "link" : "/api/v1/game/1990020385/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 11,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 6,
+              "name" : "Boston Bruins",
+              "link" : "/api/v1/teams/6",
+              "venue" : {
+                "id" : 5085,
+                "name" : "TD Garden",
+                "link" : "/api/v1/venues/5085",
+                "city" : "Boston",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "BOS",
+              "teamName" : "Bruins",
+              "locationName" : "Boston",
+              "firstYearOfPlay" : "1924",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 6,
+                "teamName" : "Bruins",
+                "link" : "/api/v1/franchises/6"
+              },
+              "shortName" : "Boston",
+              "officialSiteUrl" : "http://www.bostonbruins.com/",
+              "franchiseId" : 6,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 20,
+              "losses" : 13,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3",
+              "venue" : {
+                "id" : 5054,
+                "name" : "Madison Square Garden",
+                "link" : "/api/v1/venues/5054",
+                "city" : "New York",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NYR",
+              "teamName" : "Rangers",
+              "locationName" : "New York",
+              "firstYearOfPlay" : "1926",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 10,
+                "teamName" : "Rangers",
+                "link" : "/api/v1/franchises/10"
+              },
+              "shortName" : "NY Rangers",
+              "officialSiteUrl" : "http://www.newyorkrangers.com/",
+              "franchiseId" : 10,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 4,
+          "currentPeriodOrdinal" : "OT",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "OVERTIME",
+            "num" : 4,
+            "ordinalNum" : "OT",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 3,
+                "name" : "New York Rangers",
+                "link" : "/api/v1/teams/3"
+              },
+              "goals" : 5,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 6,
+                "name" : "Boston Bruins",
+                "link" : "/api/v1/teams/6"
+              },
+              "goals" : 5,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "id" : 5054,
+          "name" : "Madison Square Garden",
+          "link" : "/api/v1/venues/5054"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "WEPN",
+          "type" : "home"
+        }, {
+          "name" : "98.5 Sports Hub",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020385/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020386,
+        "link" : "/api/v1/game/1990020386/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 11,
+              "losses" : 21,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 5,
+            "team" : {
+              "id" : 31,
+              "name" : "Minnesota North Stars",
+              "link" : "/api/v1/teams/31",
+              "abbreviation" : "MNS",
+              "teamName" : "North Stars",
+              "locationName" : "Minnesota",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 15,
+                "teamName" : "Stars",
+                "link" : "/api/v1/franchises/15"
+              },
+              "shortName" : "Minnesota",
+              "franchiseId" : 15,
+              "active" : false
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 15,
+              "losses" : 18,
+              "ties" : 6,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 34,
+              "name" : "Hartford Whalers",
+              "link" : "/api/v1/teams/34",
+              "abbreviation" : "HFD",
+              "teamName" : "Whalers",
+              "locationName" : "Hartford",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 11,
+                "name" : "Adams",
+                "link" : "/api/v1/divisions/11"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 26,
+                "teamName" : "Hurricanes",
+                "link" : "/api/v1/franchises/26"
+              },
+              "shortName" : "Hartford",
+              "franchiseId" : 26,
+              "active" : false
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0
+            },
+            "away" : {
+              "goals" : 3,
+              "shotsOnGoal" : 0
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 34,
+                "name" : "Hartford Whalers",
+                "link" : "/api/v1/teams/34"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 31,
+                "name" : "Minnesota North Stars",
+                "link" : "/api/v1/teams/31"
+              },
+              "goals" : 5,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Hartford Civic Center",
+          "link" : "/api/v1/venues/null"
+        },
+        "content" : {
+          "link" : "/api/v1/game/1990020386/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020389,
+        "link" : "/api/v1/game/1990020389/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 13,
+              "losses" : 18,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 2,
+              "name" : "New York Islanders",
+              "link" : "/api/v1/teams/2",
+              "venue" : {
+                "name" : "UBS Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Elmont",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NYI",
+              "teamName" : "Islanders",
+              "locationName" : "New York",
+              "firstYearOfPlay" : "1972",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 22,
+                "teamName" : "Islanders",
+                "link" : "/api/v1/franchises/22"
+              },
+              "shortName" : "NY Islanders",
+              "officialSiteUrl" : "http://www.newyorkislanders.com/",
+              "franchiseId" : 22,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 18,
+              "losses" : 17,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 5,
+              "name" : "Pittsburgh Penguins",
+              "link" : "/api/v1/teams/5",
+              "venue" : {
+                "id" : 5034,
+                "name" : "PPG Paints Arena",
+                "link" : "/api/v1/venues/5034",
+                "city" : "Pittsburgh",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "PIT",
+              "teamName" : "Penguins",
+              "locationName" : "Pittsburgh",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 17,
+                "teamName" : "Penguins",
+                "link" : "/api/v1/franchises/17"
+              },
+              "shortName" : "Pittsburgh",
+              "officialSiteUrl" : "http://pittsburghpenguins.com/",
+              "franchiseId" : 17,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 4,
+          "currentPeriodOrdinal" : "OT",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "OVERTIME",
+            "num" : 4,
+            "ordinalNum" : "OT",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 5,
+                "name" : "Pittsburgh Penguins",
+                "link" : "/api/v1/teams/5"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 2,
+                "name" : "New York Islanders",
+                "link" : "/api/v1/teams/2"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Civic Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "content" : {
+          "link" : "/api/v1/game/1990020389/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020390,
+        "link" : "/api/v1/game/1990020390/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T00:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 10,
+              "losses" : 26,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 10,
+              "name" : "Toronto Maple Leafs",
+              "link" : "/api/v1/teams/10",
+              "venue" : {
+                "name" : "Scotiabank Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Toronto",
+                "timeZone" : {
+                  "id" : "America/Toronto",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "TOR",
+              "teamName" : "Maple Leafs",
+              "locationName" : "Toronto",
+              "firstYearOfPlay" : "1927",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 5,
+                "teamName" : "Maple Leafs",
+                "link" : "/api/v1/franchises/5"
+              },
+              "shortName" : "Toronto",
+              "officialSiteUrl" : "http://www.mapleleafs.com/",
+              "franchiseId" : 5,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 13,
+              "ties" : 2,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 1,
+              "name" : "New Jersey Devils",
+              "link" : "/api/v1/teams/1",
+              "venue" : {
+                "name" : "Prudential Center",
+                "link" : "/api/v1/venues/null",
+                "city" : "Newark",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "NJD",
+              "teamName" : "Devils",
+              "locationName" : "New Jersey",
+              "firstYearOfPlay" : "1982",
+              "division" : {
+                "id" : 13,
+                "name" : "Patrick",
+                "link" : "/api/v1/divisions/13"
+              },
+              "conference" : {
+                "id" : 3,
+                "name" : "Prince of Wales",
+                "link" : "/api/v1/conferences/3"
+              },
+              "franchise" : {
+                "franchiseId" : 23,
+                "teamName" : "Devils",
+                "link" : "/api/v1/franchises/23"
+              },
+              "shortName" : "New Jersey",
+              "officialSiteUrl" : "http://www.newjerseydevils.com/",
+              "franchiseId" : 23,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 1,
+                "name" : "New Jersey Devils",
+                "link" : "/api/v1/teams/1"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 10,
+                "name" : "Toronto Maple Leafs",
+                "link" : "/api/v1/teams/10"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Brendan Byrne Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "Devils Hockey Net.",
+          "type" : "home"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020390/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020392,
+        "link" : "/api/v1/game/1990020392/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T01:00:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 17,
+              "losses" : 18,
+              "ties" : 3,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 23,
+              "name" : "Vancouver Canucks",
+              "link" : "/api/v1/teams/23",
+              "venue" : {
+                "id" : 5073,
+                "name" : "Rogers Arena",
+                "link" : "/api/v1/venues/5073",
+                "city" : "Vancouver",
+                "timeZone" : {
+                  "id" : "America/Vancouver",
+                  "offset" : -8,
+                  "tz" : "PST"
+                }
+              },
+              "abbreviation" : "VAN",
+              "teamName" : "Canucks",
+              "locationName" : "Vancouver",
+              "firstYearOfPlay" : "1970",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 20,
+                "teamName" : "Canucks",
+                "link" : "/api/v1/franchises/20"
+              },
+              "shortName" : "Vancouver",
+              "officialSiteUrl" : "http://www.canucks.com/",
+              "franchiseId" : 20,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 15,
+              "losses" : 17,
+              "ties" : 3,
+              "type" : "league"
+            },
+            "score" : 4,
+            "team" : {
+              "id" : 22,
+              "name" : "Edmonton Oilers",
+              "link" : "/api/v1/teams/22",
+              "venue" : {
+                "id" : 5100,
+                "name" : "Rogers Place",
+                "link" : "/api/v1/venues/5100",
+                "city" : "Edmonton",
+                "timeZone" : {
+                  "id" : "America/Edmonton",
+                  "offset" : -7,
+                  "tz" : "MST"
+                }
+              },
+              "abbreviation" : "EDM",
+              "teamName" : "Oilers",
+              "locationName" : "Edmonton",
+              "firstYearOfPlay" : "1979",
+              "division" : {
+                "id" : 14,
+                "name" : "Smythe",
+                "link" : "/api/v1/divisions/14"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 25,
+                "teamName" : "Oilers",
+                "link" : "/api/v1/franchises/25"
+              },
+              "shortName" : "Edmonton",
+              "officialSiteUrl" : "http://www.edmontonoilers.com/",
+              "franchiseId" : 25,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 22,
+                "name" : "Edmonton Oilers",
+                "link" : "/api/v1/teams/22"
+              },
+              "goals" : 4,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 23,
+                "name" : "Vancouver Canucks",
+                "link" : "/api/v1/teams/23"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Northlands Coliseum",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "CHED",
+          "type" : "home"
+        }, {
+          "name" : "SN650",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020392/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      }, {
+        "gamePk" : 1990020391,
+        "link" : "/api/v1/game/1990020391/feed/live",
+        "gameType" : "R",
+        "season" : "19901991",
+        "gameDate" : "1990-12-24T01:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "7",
+          "detailedState" : "Final",
+          "statusCode" : "7",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 19,
+              "losses" : 15,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 2,
+            "team" : {
+              "id" : 17,
+              "name" : "Detroit Red Wings",
+              "link" : "/api/v1/teams/17",
+              "venue" : {
+                "id" : 5145,
+                "name" : "Little Caesars Arena",
+                "link" : "/api/v1/venues/5145",
+                "city" : "Detroit",
+                "timeZone" : {
+                  "id" : "America/Detroit",
+                  "offset" : -5,
+                  "tz" : "EST"
+                }
+              },
+              "abbreviation" : "DET",
+              "teamName" : "Red Wings",
+              "locationName" : "Detroit",
+              "firstYearOfPlay" : "1932",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 12,
+                "teamName" : "Red Wings",
+                "link" : "/api/v1/franchises/12"
+              },
+              "shortName" : "Detroit",
+              "officialSiteUrl" : "http://www.detroitredwings.com/",
+              "franchiseId" : 12,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 25,
+              "losses" : 12,
+              "ties" : 4,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 16,
+              "name" : "Chicago Blackhawks",
+              "link" : "/api/v1/teams/16",
+              "venue" : {
+                "id" : 5092,
+                "name" : "United Center",
+                "link" : "/api/v1/venues/5092",
+                "city" : "Chicago",
+                "timeZone" : {
+                  "id" : "America/Chicago",
+                  "offset" : -6,
+                  "tz" : "CST"
+                }
+              },
+              "abbreviation" : "CHI",
+              "teamName" : "Blackhawks",
+              "locationName" : "Chicago",
+              "firstYearOfPlay" : "1926",
+              "division" : {
+                "id" : 12,
+                "name" : "Norris",
+                "link" : "/api/v1/divisions/12"
+              },
+              "conference" : {
+                "id" : 4,
+                "name" : "Clarence Campbell",
+                "link" : "/api/v1/conferences/4"
+              },
+              "franchise" : {
+                "franchiseId" : 11,
+                "teamName" : "Blackhawks",
+                "link" : "/api/v1/franchises/11"
+              },
+              "shortName" : "Chicago",
+              "officialSiteUrl" : "http://www.chicagoblackhawks.com/",
+              "franchiseId" : 11,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 16,
+                "name" : "Chicago Blackhawks",
+                "link" : "/api/v1/teams/16"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 17,
+                "name" : "Detroit Red Wings",
+                "link" : "/api/v1/teams/17"
+              },
+              "goals" : 2,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Chicago Stadium",
+          "link" : "/api/v1/venues/null"
+        },
+        "radioBroadcasts" : [ {
+          "name" : "WGN 720",
+          "type" : "home"
+        }, {
+          "name" : "WXYT-FM 97.1",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/1990020391/content"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false
+        }
+      } ],
+      "events" : [ ],
+      "matches" : [ ]
+    } ]
+  }

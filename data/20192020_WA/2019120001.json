@@ -1,0 +1,1826 @@
+{
+ "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. \u00a9 NHL 2022. All Rights Reserved.",
+ "gamePk": 2019120001,
+ "link": "/api/v1/game/2019120001/feed/live",
+ "metaData": {
+  "wait": 10,
+  "timeStamp": "20200125_171102"
+ },
+ "gameData": {
+  "game": {
+   "pk": 2019120001,
+   "season": "20192020",
+   "type": "WA"
+  },
+  "datetime": {
+   "dateTime": "2020-01-25T02:30:00Z"
+  },
+  "status": {
+   "abstractGameState": "Final",
+   "codedGameState": "6",
+   "detailedState": "Final",
+   "statusCode": "6",
+   "startTimeTBD": false
+  },
+  "teams": {
+   "away": {
+    "id": 7460,
+    "name": "Canadian All-Stars",
+    "link": "/api/v1/teams/7460",
+    "abbreviation": "CWA",
+    "teamName": "Canadian All-Stars",
+    "locationName": "Canadian",
+    "division": {
+     "link": "/api/v1/divisions/null"
+    },
+    "conference": {
+     "link": "/api/v1/conferences/null"
+    },
+    "active": true
+   },
+   "home": {
+    "id": 7461,
+    "name": "American All-Stars",
+    "link": "/api/v1/teams/7461",
+    "abbreviation": "AWA",
+    "teamName": "American All-Stars",
+    "locationName": "American",
+    "division": {
+     "link": "/api/v1/divisions/null"
+    },
+    "conference": {
+     "link": "/api/v1/conferences/null"
+    },
+    "active": true
+   }
+  },
+  "players": {
+   "ID8482020": {
+    "id": 8482020,
+    "fullName": "Brianna Decker",
+    "link": "/api/v1/people/8482020",
+    "firstName": "Brianna",
+    "lastName": "Decker",
+    "primaryNumber": "14",
+    "birthDate": "1991-05-13",
+    "birthCity": "Dousman",
+    "birthStateProvince": "WI",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 4\"",
+    "weight": 148,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482011": {
+    "id": 8482011,
+    "fullName": "Laura Fortino",
+    "link": "/api/v1/people/8482011",
+    "firstName": "Laura",
+    "lastName": "Fortino",
+    "primaryNumber": "8",
+    "birthDate": "1991-01-30",
+    "birthCity": "Hamilton",
+    "birthStateProvince": "ON",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 4\"",
+    "weight": 144,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "D",
+     "name": "Defenseman",
+     "type": "Defenseman",
+     "abbreviation": "D"
+    }
+   },
+   "ID8482022": {
+    "id": 8482022,
+    "fullName": "Hilary Knight",
+    "link": "/api/v1/people/8482022",
+    "firstName": "Hilary",
+    "lastName": "Knight",
+    "primaryNumber": "21",
+    "birthDate": "1989-07-12",
+    "birthCity": "Sun Valley",
+    "birthStateProvince": "ID",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 11\"",
+    "weight": 172,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482010": {
+    "id": 8482010,
+    "fullName": "Renata Fast",
+    "link": "/api/v1/people/8482010",
+    "firstName": "Renata",
+    "lastName": "Fast",
+    "primaryNumber": "14",
+    "birthDate": "1994-10-06",
+    "birthCity": "Burlington",
+    "birthStateProvince": "ON",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 6\"",
+    "weight": 144,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "D",
+     "name": "Defenseman",
+     "type": "Defenseman",
+     "abbreviation": "D"
+    }
+   },
+   "ID8482021": {
+    "id": 8482021,
+    "fullName": "Amanda Kessel",
+    "link": "/api/v1/people/8482021",
+    "firstName": "Amanda",
+    "lastName": "Kessel",
+    "primaryNumber": "28",
+    "birthDate": "1991-08-28",
+    "birthCity": "Madison",
+    "birthStateProvince": "WI",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 6\"",
+    "weight": 130,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482009": {
+    "id": 8482009,
+    "fullName": "Ann-Renee Desbiens",
+    "link": "/api/v1/people/8482009",
+    "firstName": "Ann-Renee",
+    "lastName": "Desbiens",
+    "primaryNumber": "35",
+    "birthDate": "1994-04-10",
+    "birthCity": "La Malbaie",
+    "birthStateProvince": "QC",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 9\"",
+    "weight": 160,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "G",
+     "name": "Goalie",
+     "type": "Goalie",
+     "abbreviation": "G"
+    }
+   },
+   "ID8482013": {
+    "id": 8482013,
+    "fullName": "Sarah Nurse",
+    "link": "/api/v1/people/8482013",
+    "firstName": "Sarah",
+    "lastName": "Nurse",
+    "primaryNumber": "20",
+    "birthDate": "1995-01-04",
+    "birthCity": "Hamilton",
+    "birthStateProvince": "ON",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 8\"",
+    "weight": 140,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482024": {
+    "id": 8482024,
+    "fullName": "Annie Pankowski",
+    "link": "/api/v1/people/8482024",
+    "firstName": "Annie",
+    "lastName": "Pankowski",
+    "primaryNumber": "27",
+    "birthDate": "1994-11-04",
+    "birthCity": "Laguna Hills",
+    "birthStateProvince": "CA",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 9\"",
+    "weight": 165,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482012": {
+    "id": 8482012,
+    "fullName": "Rebecca Johnston",
+    "link": "/api/v1/people/8482012",
+    "firstName": "Rebecca",
+    "lastName": "Johnston",
+    "primaryNumber": "6",
+    "birthDate": "1989-09-24",
+    "birthCity": "Sudbury",
+    "birthStateProvince": "ON",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 9\"",
+    "weight": 148,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482023": {
+    "id": 8482023,
+    "fullName": "Jocelyne Lamoureux-Davidson",
+    "link": "/api/v1/people/8482023",
+    "firstName": "Jocelyne",
+    "lastName": "Lamoureux-Davidson",
+    "primaryNumber": "17",
+    "birthDate": "1989-07-03",
+    "birthCity": "Grand Forks",
+    "birthStateProvince": "ND",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 6\"",
+    "weight": 155,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482015": {
+    "id": 8482015,
+    "fullName": "Natalie Spooner",
+    "link": "/api/v1/people/8482015",
+    "firstName": "Natalie",
+    "lastName": "Spooner",
+    "primaryNumber": "24",
+    "birthDate": "1990-10-17",
+    "birthCity": "Scarborough",
+    "birthStateProvince": "ON",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 10\"",
+    "weight": 180,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482026": {
+    "id": 8482026,
+    "fullName": "Lee Stecklein",
+    "link": "/api/v1/people/8482026",
+    "firstName": "Lee",
+    "lastName": "Stecklein",
+    "primaryNumber": "2",
+    "birthDate": "1994-04-23",
+    "birthCity": "Roseville",
+    "birthStateProvince": "MN",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "6' 0\"",
+    "weight": 170,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "D",
+     "name": "Defenseman",
+     "type": "Defenseman",
+     "abbreviation": "D"
+    }
+   },
+   "ID8482014": {
+    "id": 8482014,
+    "fullName": "Marie-Philip Poulin",
+    "link": "/api/v1/people/8482014",
+    "firstName": "Marie-Philip",
+    "lastName": "Poulin",
+    "primaryNumber": "29",
+    "birthDate": "1991-03-28",
+    "birthCity": "Beauceville",
+    "birthStateProvince": "QC",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 6\"",
+    "weight": 160,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482025": {
+    "id": 8482025,
+    "fullName": "Alex Cavallini",
+    "link": "/api/v1/people/8482025",
+    "firstName": "Alex",
+    "lastName": "Cavallini",
+    "primaryNumber": "33",
+    "birthDate": "1992-01-03",
+    "birthCity": "Delafield",
+    "birthStateProvince": "WI",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 7\"",
+    "weight": 155,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "G",
+     "name": "Goalie",
+     "type": "Goalie",
+     "abbreviation": "G"
+    }
+   },
+   "ID8482017": {
+    "id": 8482017,
+    "fullName": "Kacey Bellamy",
+    "link": "/api/v1/people/8482017",
+    "firstName": "Kacey",
+    "lastName": "Bellamy",
+    "primaryNumber": "22",
+    "birthDate": "1987-04-22",
+    "birthCity": "Westfield",
+    "birthStateProvince": "MA",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 7\"",
+    "weight": 145,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "D",
+     "name": "Defenseman",
+     "type": "Defenseman",
+     "abbreviation": "D"
+    }
+   },
+   "ID8482016": {
+    "id": 8482016,
+    "fullName": "Blayre Turnbull",
+    "link": "/api/v1/people/8482016",
+    "firstName": "Blayre",
+    "lastName": "Turnbull",
+    "primaryNumber": "40",
+    "birthDate": "1993-07-15",
+    "birthCity": "Stellarton",
+    "birthStateProvince": "NS",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 7\"",
+    "weight": 155,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "R",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482008": {
+    "id": 8482008,
+    "fullName": "Melodie Daoust",
+    "link": "/api/v1/people/8482008",
+    "firstName": "Melodie",
+    "lastName": "Daoust",
+    "primaryNumber": "15",
+    "birthDate": "1992-01-07",
+    "birthCity": "Valleyfield",
+    "birthStateProvince": "QC",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 6\"",
+    "weight": 157,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482019": {
+    "id": 8482019,
+    "fullName": "Kendall Coyne Schofield",
+    "link": "/api/v1/people/8482019",
+    "firstName": "Kendall",
+    "lastName": "Coyne Schofield",
+    "primaryNumber": "26",
+    "birthDate": "1992-05-25",
+    "birthCity": "Palos Heights",
+    "birthStateProvince": "IL",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 2\"",
+    "weight": 125,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482007": {
+    "id": 8482007,
+    "fullName": "Meghan Agosta",
+    "link": "/api/v1/people/8482007",
+    "firstName": "Meghan",
+    "lastName": "Agosta",
+    "primaryNumber": "2",
+    "birthDate": "1987-02-12",
+    "birthCity": "Ruthven",
+    "birthStateProvince": "ON",
+    "birthCountry": "CAN",
+    "nationality": "CAN",
+    "height": "5' 7\"",
+    "weight": 148,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   },
+   "ID8482018": {
+    "id": 8482018,
+    "fullName": "Alex Carpenter",
+    "link": "/api/v1/people/8482018",
+    "firstName": "Alex",
+    "lastName": "Carpenter",
+    "primaryNumber": "25",
+    "birthDate": "1994-04-13",
+    "birthCity": "North Reading",
+    "birthStateProvince": "MA",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "5' 7\"",
+    "weight": 155,
+    "active": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "N",
+    "primaryPosition": {
+     "code": "C",
+     "name": "Center",
+     "type": "Forward",
+     "abbreviation": "C"
+    }
+   }
+  },
+  "venue": {
+   "id": 5076,
+   "name": "Enterprise Center",
+   "link": "/api/v1/venues/5076"
+  }
+ },
+ "liveData": {
+  "plays": {
+   "allPlays": [
+    {
+     "players": [
+      {
+       "player": {
+        "id": 8482012,
+        "fullName": "Rebecca Johnston",
+        "link": "/api/v1/people/8482012"
+       },
+       "playerType": "Scorer",
+       "seasonTotal": 1
+      },
+      {
+       "player": {
+        "id": 8482007,
+        "fullName": "Meghan Agosta",
+        "link": "/api/v1/people/8482007"
+       },
+       "playerType": "Assist",
+       "seasonTotal": 1
+      },
+      {
+       "player": {
+        "id": 8482010,
+        "fullName": "Renata Fast",
+        "link": "/api/v1/people/8482010"
+       },
+       "playerType": "Assist",
+       "seasonTotal": 1
+      },
+      {
+       "player": {
+        "id": 8482025,
+        "fullName": "Alex Cavallini",
+        "link": "/api/v1/people/8482025"
+       },
+       "playerType": "Goalie"
+      }
+     ],
+     "result": {
+      "event": "Goal",
+      "eventCode": "AWA9001",
+      "eventTypeId": "GOAL",
+      "description": "Rebecca Johnston (1) , assists: Meghan Agosta (1), Renata Fast (1)",
+      "strength": {
+       "code": "EVEN",
+       "name": "Even"
+      },
+      "gameWinningGoal": false,
+      "emptyNet": false
+     },
+     "about": {
+      "eventIdx": 0,
+      "eventId": 9001,
+      "period": 1,
+      "periodType": "REGULAR",
+      "ordinalNum": "1st",
+      "periodTime": "00:54",
+      "periodTimeRemaining": "19:06",
+      "dateTime": "2020-01-25T02:30:00Z",
+      "goals": {
+       "away": 1,
+       "home": 0
+      }
+     },
+     "coordinates": {},
+     "team": {
+      "id": 7460,
+      "name": "Canadian All-Stars",
+      "link": "/api/v1/teams/7460"
+     }
+    },
+    {
+     "players": [
+      {
+       "player": {
+        "id": 8482008,
+        "fullName": "Melodie Daoust",
+        "link": "/api/v1/people/8482008"
+       },
+       "playerType": "Scorer",
+       "seasonTotal": 1
+      },
+      {
+       "player": {
+        "id": 8482014,
+        "fullName": "Marie-Philip Poulin",
+        "link": "/api/v1/people/8482014"
+       },
+       "playerType": "Assist",
+       "seasonTotal": 1
+      },
+      {
+       "player": {
+        "id": 8482025,
+        "fullName": "Alex Cavallini",
+        "link": "/api/v1/people/8482025"
+       },
+       "playerType": "Goalie"
+      }
+     ],
+     "result": {
+      "event": "Goal",
+      "eventCode": "AWA9004",
+      "eventTypeId": "GOAL",
+      "description": "Melodie Daoust (1) , assists: Marie-Philip Poulin (1)",
+      "strength": {
+       "code": "EVEN",
+       "name": "Even"
+      },
+      "gameWinningGoal": true,
+      "emptyNet": false
+     },
+     "about": {
+      "eventIdx": 1,
+      "eventId": 9004,
+      "period": 2,
+      "periodType": "REGULAR",
+      "ordinalNum": "2nd",
+      "periodTime": "02:25",
+      "periodTimeRemaining": "17:35",
+      "dateTime": "2020-01-25T02:30:00Z",
+      "goals": {
+       "away": 2,
+       "home": 0
+      }
+     },
+     "coordinates": {},
+     "team": {
+      "id": 7460,
+      "name": "Canadian All-Stars",
+      "link": "/api/v1/teams/7460"
+     }
+    },
+    {
+     "players": [
+      {
+       "player": {
+        "id": 8482022,
+        "fullName": "Hilary Knight",
+        "link": "/api/v1/people/8482022"
+       },
+       "playerType": "Scorer",
+       "seasonTotal": 1
+      },
+      {
+       "player": {
+        "id": 8482024,
+        "fullName": "Annie Pankowski",
+        "link": "/api/v1/people/8482024"
+       },
+       "playerType": "Assist",
+       "seasonTotal": 1
+      },
+      {
+       "player": {
+        "id": 8482009,
+        "fullName": "Ann-Renee Desbiens",
+        "link": "/api/v1/people/8482009"
+       },
+       "playerType": "Goalie"
+      }
+     ],
+     "result": {
+      "event": "Goal",
+      "eventCode": "AWA9007",
+      "eventTypeId": "GOAL",
+      "description": "Hilary Knight (1) , assists: Annie Pankowski (1)",
+      "strength": {
+       "code": "EVEN",
+       "name": "Even"
+      },
+      "gameWinningGoal": false,
+      "emptyNet": false
+     },
+     "about": {
+      "eventIdx": 2,
+      "eventId": 9007,
+      "period": 2,
+      "periodType": "REGULAR",
+      "ordinalNum": "2nd",
+      "periodTime": "04:24",
+      "periodTimeRemaining": "15:36",
+      "dateTime": "2020-01-25T02:30:00Z",
+      "goals": {
+       "away": 2,
+       "home": 1
+      }
+     },
+     "coordinates": {},
+     "team": {
+      "id": 7461,
+      "name": "American All-Stars",
+      "link": "/api/v1/teams/7461"
+     }
+    }
+   ],
+   "scoringPlays": [
+    0,
+    1,
+    2
+   ],
+   "penaltyPlays": [],
+   "playsByPeriod": [
+    {
+     "startIndex": 0,
+     "plays": [
+      0
+     ],
+     "endIndex": -1
+    },
+    {
+     "startIndex": 1,
+     "plays": [
+      1,
+      2
+     ],
+     "endIndex": 2
+    }
+   ],
+   "currentPlay": {
+    "players": [
+     {
+      "player": {
+       "id": 8482022,
+       "fullName": "Hilary Knight",
+       "link": "/api/v1/people/8482022"
+      },
+      "playerType": "Scorer",
+      "seasonTotal": 1
+     },
+     {
+      "player": {
+       "id": 8482024,
+       "fullName": "Annie Pankowski",
+       "link": "/api/v1/people/8482024"
+      },
+      "playerType": "Assist",
+      "seasonTotal": 1
+     },
+     {
+      "player": {
+       "id": 8482009,
+       "fullName": "Ann-Renee Desbiens",
+       "link": "/api/v1/people/8482009"
+      },
+      "playerType": "Goalie"
+     }
+    ],
+    "result": {
+     "event": "Goal",
+     "eventCode": "AWA9007",
+     "eventTypeId": "GOAL",
+     "description": "Hilary Knight (1) , assists: Annie Pankowski (1)",
+     "strength": {
+      "code": "EVEN",
+      "name": "Even"
+     },
+     "gameWinningGoal": false,
+     "emptyNet": false
+    },
+    "about": {
+     "eventIdx": 2,
+     "eventId": 9007,
+     "period": 2,
+     "periodType": "REGULAR",
+     "ordinalNum": "2nd",
+     "periodTime": "04:24",
+     "periodTimeRemaining": "15:36",
+     "dateTime": "2020-01-25T02:30:00Z",
+     "goals": {
+      "away": 2,
+      "home": 1
+     }
+    },
+    "coordinates": {},
+    "team": {
+     "id": 7461,
+     "name": "American All-Stars",
+     "link": "/api/v1/teams/7461"
+    }
+   }
+  },
+  "linescore": {
+   "currentPeriod": 2,
+   "currentPeriodOrdinal": "2nd",
+   "currentPeriodTimeRemaining": "Final",
+   "periods": [
+    {
+     "periodType": "REGULAR",
+     "num": 1,
+     "ordinalNum": "1st",
+     "home": {
+      "goals": 0,
+      "shotsOnGoal": 11
+     },
+     "away": {
+      "goals": 1,
+      "shotsOnGoal": 7
+     }
+    },
+    {
+     "periodType": "REGULAR",
+     "num": 2,
+     "ordinalNum": "2nd",
+     "home": {
+      "goals": 1,
+      "shotsOnGoal": 5
+     },
+     "away": {
+      "goals": 1,
+      "shotsOnGoal": 9
+     }
+    }
+   ],
+   "shootoutInfo": {
+    "away": {
+     "scores": 0,
+     "attempts": 0
+    },
+    "home": {
+     "scores": 0,
+     "attempts": 0
+    }
+   },
+   "teams": {
+    "home": {
+     "team": {
+      "id": 7461,
+      "name": "American All-Stars",
+      "link": "/api/v1/teams/7461"
+     },
+     "goals": 1,
+     "shotsOnGoal": 16,
+     "goaliePulled": false,
+     "numSkaters": 0,
+     "powerPlay": false
+    },
+    "away": {
+     "team": {
+      "id": 7460,
+      "name": "Canadian All-Stars",
+      "link": "/api/v1/teams/7460"
+     },
+     "goals": 2,
+     "shotsOnGoal": 16,
+     "goaliePulled": false,
+     "numSkaters": 0,
+     "powerPlay": false
+    }
+   },
+   "powerPlayStrength": "Even",
+   "hasShootout": false,
+   "intermissionInfo": {
+    "intermissionTimeRemaining": 0,
+    "intermissionTimeElapsed": 0,
+    "inIntermission": false
+   }
+  },
+  "boxscore": {
+   "teams": {
+    "away": {
+     "team": {
+      "id": 7460,
+      "name": "Canadian All-Stars",
+      "link": "/api/v1/teams/7460"
+     },
+     "teamStats": {
+      "teamSkaterStats": {
+       "goals": 2,
+       "pim": 0,
+       "shots": 16,
+       "powerPlayPercentage": "0.0",
+       "powerPlayGoals": 0.0,
+       "powerPlayOpportunities": 0.0,
+       "faceOffWinPercentage": "0.0",
+       "blocked": 0,
+       "takeaways": 0,
+       "giveaways": 0,
+       "hits": 0
+      }
+     },
+     "players": {
+      "ID8482009": {
+       "person": {
+        "id": 8482009,
+        "fullName": "Ann-Renee Desbiens",
+        "link": "/api/v1/people/8482009",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "35",
+       "position": {
+        "code": "G",
+        "name": "Goalie",
+        "type": "Goalie",
+        "abbreviation": "G"
+       },
+       "stats": {
+        "goalieStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "pim": 0,
+         "shots": 16,
+         "saves": 15,
+         "powerPlaySaves": 0,
+         "shortHandedSaves": 0,
+         "evenSaves": 0,
+         "shortHandedShotsAgainst": 0,
+         "evenShotsAgainst": 1,
+         "powerPlayShotsAgainst": 0,
+         "savePercentage": 93.75,
+         "evenStrengthSavePercentage": 0.0
+        }
+       }
+      },
+      "ID8482011": {
+       "person": {
+        "id": 8482011,
+        "fullName": "Laura Fortino",
+        "link": "/api/v1/people/8482011",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "8",
+       "position": {
+        "code": "D",
+        "name": "Defenseman",
+        "type": "Defenseman",
+        "abbreviation": "D"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 2,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482010": {
+       "person": {
+        "id": 8482010,
+        "fullName": "Renata Fast",
+        "link": "/api/v1/people/8482010",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "14",
+       "position": {
+        "code": "D",
+        "name": "Defenseman",
+        "type": "Defenseman",
+        "abbreviation": "D"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 1,
+         "goals": 0,
+         "shots": 0,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 1,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482013": {
+       "person": {
+        "id": 8482013,
+        "fullName": "Sarah Nurse",
+        "link": "/api/v1/people/8482013",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "20",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 1,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482012": {
+       "person": {
+        "id": 8482012,
+        "fullName": "Rebecca Johnston",
+        "link": "/api/v1/people/8482012",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "6",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 1,
+         "shots": 2,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 1,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482015": {
+       "person": {
+        "id": 8482015,
+        "fullName": "Natalie Spooner",
+        "link": "/api/v1/people/8482015",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "24",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 2,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482014": {
+       "person": {
+        "id": 8482014,
+        "fullName": "Marie-Philip Poulin",
+        "link": "/api/v1/people/8482014",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "29",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 1,
+         "goals": 0,
+         "shots": 3,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482016": {
+       "person": {
+        "id": 8482016,
+        "fullName": "Blayre Turnbull",
+        "link": "/api/v1/people/8482016",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "40",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 1,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482008": {
+       "person": {
+        "id": 8482008,
+        "fullName": "Melodie Daoust",
+        "link": "/api/v1/people/8482008",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "15",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 1,
+         "shots": 4,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482007": {
+       "person": {
+        "id": 8482007,
+        "fullName": "Meghan Agosta",
+        "link": "/api/v1/people/8482007",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "2",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 1,
+         "goals": 0,
+         "shots": 1,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 1,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      }
+     },
+     "goalies": [
+      8482009
+     ],
+     "skaters": [
+      8482007,
+      8482012,
+      8482011,
+      8482010,
+      8482008,
+      8482013,
+      8482015,
+      8482014,
+      8482016
+     ],
+     "onIce": [],
+     "onIcePlus": [],
+     "scratches": [],
+     "penaltyBox": [],
+     "coaches": [
+      {
+       "person": {
+        "fullName": "Jayna Hefford",
+        "link": "/api/v1/people/null"
+       },
+       "position": {
+        "code": "HC",
+        "name": "Head Coach",
+        "type": "Head Coach",
+        "abbreviation": "Head Coach"
+       }
+      }
+     ]
+    },
+    "home": {
+     "team": {
+      "id": 7461,
+      "name": "American All-Stars",
+      "link": "/api/v1/teams/7461"
+     },
+     "teamStats": {
+      "teamSkaterStats": {
+       "goals": 1,
+       "pim": 0,
+       "shots": 16,
+       "powerPlayPercentage": "0.0",
+       "powerPlayGoals": 0.0,
+       "powerPlayOpportunities": 0.0,
+       "faceOffWinPercentage": "0.0",
+       "blocked": 0,
+       "takeaways": 0,
+       "giveaways": 0,
+       "hits": 0
+      }
+     },
+     "players": {
+      "ID8482020": {
+       "person": {
+        "id": 8482020,
+        "fullName": "Brianna Decker",
+        "link": "/api/v1/people/8482020",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "14",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 0,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": -1,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482022": {
+       "person": {
+        "id": 8482022,
+        "fullName": "Hilary Knight",
+        "link": "/api/v1/people/8482022",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "21",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 1,
+         "shots": 3,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482021": {
+       "person": {
+        "id": 8482021,
+        "fullName": "Amanda Kessel",
+        "link": "/api/v1/people/8482021",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "28",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 1,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482024": {
+       "person": {
+        "id": 8482024,
+        "fullName": "Annie Pankowski",
+        "link": "/api/v1/people/8482024",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "27",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 1,
+         "goals": 0,
+         "shots": 5,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482023": {
+       "person": {
+        "id": 8482023,
+        "fullName": "Jocelyne Lamoureux-Davidson",
+        "link": "/api/v1/people/8482023",
+        "shootsCatches": "R",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "17",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 2,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482026": {
+       "person": {
+        "id": 8482026,
+        "fullName": "Lee Stecklein",
+        "link": "/api/v1/people/8482026",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "2",
+       "position": {
+        "code": "D",
+        "name": "Defenseman",
+        "type": "Defenseman",
+        "abbreviation": "D"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 2,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482025": {
+       "person": {
+        "id": 8482025,
+        "fullName": "Alex Cavallini",
+        "link": "/api/v1/people/8482025",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "33",
+       "position": {
+        "code": "G",
+        "name": "Goalie",
+        "type": "Goalie",
+        "abbreviation": "G"
+       },
+       "stats": {
+        "goalieStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "pim": 0,
+         "shots": 16,
+         "saves": 14,
+         "powerPlaySaves": 0,
+         "shortHandedSaves": 0,
+         "evenSaves": 0,
+         "shortHandedShotsAgainst": 0,
+         "evenShotsAgainst": 2,
+         "powerPlayShotsAgainst": 0,
+         "savePercentage": 87.5,
+         "evenStrengthSavePercentage": 0.0
+        }
+       }
+      },
+      "ID8482017": {
+       "person": {
+        "id": 8482017,
+        "fullName": "Kacey Bellamy",
+        "link": "/api/v1/people/8482017",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "22",
+       "position": {
+        "code": "D",
+        "name": "Defenseman",
+        "type": "Defenseman",
+        "abbreviation": "D"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 1,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": 0,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482019": {
+       "person": {
+        "id": 8482019,
+        "fullName": "Kendall Coyne Schofield",
+        "link": "/api/v1/people/8482019",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "26",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 1,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": -1,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      },
+      "ID8482018": {
+       "person": {
+        "id": 8482018,
+        "fullName": "Alex Carpenter",
+        "link": "/api/v1/people/8482018",
+        "shootsCatches": "L",
+        "rosterStatus": "N"
+       },
+       "jerseyNumber": "25",
+       "position": {
+        "code": "C",
+        "name": "Center",
+        "type": "Forward",
+        "abbreviation": "C"
+       },
+       "stats": {
+        "skaterStats": {
+         "timeOnIce": "0:00",
+         "assists": 0,
+         "goals": 0,
+         "shots": 1,
+         "hits": 0,
+         "powerPlayGoals": 0,
+         "powerPlayAssists": 0,
+         "faceOffWins": 0,
+         "faceoffTaken": 0,
+         "takeaways": 0,
+         "giveaways": 0,
+         "shortHandedGoals": 0,
+         "shortHandedAssists": 0,
+         "blocked": 0,
+         "plusMinus": -1,
+         "evenTimeOnIce": "0:00",
+         "powerPlayTimeOnIce": "0:00",
+         "shortHandedTimeOnIce": "0:00"
+        }
+       }
+      }
+     },
+     "goalies": [
+      8482025
+     ],
+     "skaters": [
+      8482026,
+      8482020,
+      8482023,
+      8482022,
+      8482017,
+      8482018,
+      8482019,
+      8482024,
+      8482021
+     ],
+     "onIce": [],
+     "onIcePlus": [],
+     "scratches": [],
+     "penaltyBox": [],
+     "coaches": [
+      {
+       "person": {
+        "fullName": "Cammi Granato\t",
+        "link": "/api/v1/people/null"
+       },
+       "position": {
+        "code": "HC",
+        "name": "Head Coach",
+        "type": "Head Coach",
+        "abbreviation": "Head Coach"
+       }
+      }
+     ]
+    }
+   },
+   "officials": [
+    {
+     "official": {
+      "fullName": "Katie Guay",
+      "link": "/api/v1/people/null"
+     },
+     "officialType": "Referee"
+    },
+    {
+     "official": {
+      "fullName": "Kelly Cooke",
+      "link": "/api/v1/people/null"
+     },
+     "officialType": "Referee"
+    },
+    {
+     "official": {
+      "fullName": "Kendall Hanley",
+      "link": "/api/v1/people/null"
+     },
+     "officialType": "Linesman"
+    },
+    {
+     "official": {
+      "fullName": "Kirsten Welsh",
+      "link": "/api/v1/people/null"
+     },
+     "officialType": "Linesman"
+    }
+   ]
+  },
+  "decisions": {}
+ }
+}
